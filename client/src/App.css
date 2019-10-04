@@ -27,7 +27,61 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+.App {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.player-list {
+  display: flex;
+  justify-content: center;
+}
+
+.player-card {
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+
+.dark-mode__toggle {
+  background: red;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  /* position: relative; */
+  width: 50px;
+}
+
+.toggle {
+  background: forestgreen;
+  height: 50px;
+  position: absolute;
+  transition: 0.2s;
+  width: 50px;
+  color: white;
+}
+
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+
+  .nav-bar {
+    background-color: #1F2022;
+    border: none;
+  }
+
+  .toggle {
+    background: white;
   }
 }
