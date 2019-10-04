@@ -64,11 +64,11 @@
 
 .toggle {
   background: forestgreen;
-  border-radius: 50px;
-  height: 18px;
+  height: 50px;
   position: absolute;
   transition: 0.2s;
-  width: 25px;
+  width: 50px;
+  color: white;
 }
 
 
